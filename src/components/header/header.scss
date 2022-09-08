@@ -1,0 +1,15 @@
+.header-section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 180px;
+  background-color: white;
+  .tulisan {
+    h1 {
+      font-weight: 500;
+    }
+    p {
+      color: #999;
+    }
+  }
+}

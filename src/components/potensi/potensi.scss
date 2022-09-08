@@ -1,0 +1,47 @@
+@import url("../../css/variable.css");
+.potensiContainer {
+  margin-top: 40px;
+  padding: 20px 30px;
+  h2 {
+    line-height: 20px;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .image {
+    padding: 10px;
+    .imageSection {
+      border: 2px solid var(--main);
+      border-radius: 50px;
+      width: 55px;
+      margin: auto;
+      .imgPotensi {
+        padding: 2px;
+        background-color: #fff;
+        border-radius: 60px;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .basic {
+    .text-brands {
+      font-size: 16px;
+      display: flex;
+      font-weight: 600;
+      color: var(--main);
+    }
+    hr {
+      width: 20px;
+    }
+    p {
+      line-height: 1.8;
+      font-size: 14px;
+      color: #8d8d8d;
+    }
+  }
+}

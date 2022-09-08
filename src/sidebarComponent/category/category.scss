@@ -1,0 +1,19 @@
+@import url("../../css/variable.css");
+.category {
+  .isi {
+    button {
+      outline: none;
+      margin: 0 5px 5px 0;
+      padding: 0 5px;
+      background-color: transparent;
+      font-size: 14px;
+      color: #8d8d8d;
+      border: 1px solid #8d8d8d;
+      border-radius: 5px;
+      &:hover {
+        background-color: var(--main);
+        color: white;
+      }
+    }
+  }
+}

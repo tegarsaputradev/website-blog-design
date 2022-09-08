@@ -1,0 +1,39 @@
+@import url(../../css/variable.css);
+.nav-section {
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: white;
+  margin-top: 1px;
+  .navbar-brand {
+    &:hover {
+      color: var(--main);
+    }
+  }
+  .nav-item {
+    .dropdown-menu {
+      .dropdown-item {
+        &:hover {
+          color: white;
+          background-color: var(--main);
+        }
+      }
+    }
+    .nav-link {
+      &:hover {
+        color: var(--main);
+      }
+    }
+    .aktif {
+      color: var(--main);
+    }
+  }
+  span {
+    margin-right: 10px;
+    font-size: 18px;
+    &:hover {
+      color: var(--main);
+      cursor: pointer;
+    }
+  }
+}

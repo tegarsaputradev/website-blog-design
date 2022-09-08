@@ -1,0 +1,85 @@
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px 0;
+  background-color: #000;
+  margin-top: 20px;
+  position: relative;
+}
+
+.footer-container {
+  max-width: 1380px;
+  margin: auto;
+  height: 100%;
+  padding: 0 3.5rem;
+}
+
+.footer .left,
+.footer .mid,
+.footer .right {
+  height: 100px;
+}
+
+.footer .social {
+  margin-top: -5px;
+}
+
+.footer .f-social {
+  font-size: 20px;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.footer .f-social a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .mid span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  display: inline-block;
+  transform: scale(1, 1.5);
+}
+
+.footer .right {
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.copyright .name {
+  color: var(--main);
+  text-decoration: none;
+  font-size: 14px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.fa-facebook:hover {
+  color: darkblue;
+  cursor: pointer;
+}
+
+.fa-twitter:hover {
+  color: darkturquoise;
+  cursor: pointer;
+}
+
+.fa-youtube-play:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+.fa-instagram:hover {
+  color: #d611ac;
+  cursor: pointer;
+}

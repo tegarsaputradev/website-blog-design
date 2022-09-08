@@ -1,0 +1,66 @@
+@import url("../../css/variable.css");
+.home {
+  .post-container {
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .title {
+    margin-bottom: 60px;
+  }
+  .post {
+    margin-bottom: 8s55px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    .img-post {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      img {
+        max-width: 300px;
+        height: auto;
+      }
+    }
+
+    .excerpt {
+      .judul-post {
+        margin-bottom: 10px;
+        .bc {
+          height: 20px;
+          display: flex;
+          align-items: center;
+          span {
+            color: rgb(150, 149, 149);
+            font-size: 14px;
+          }
+          .author {
+            color: var(--main);
+          }
+          .ficon {
+            font-size: 18px;
+            margin-top: -5px;
+          }
+          .label {
+            color: var(--main);
+          }
+        }
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: normal;
+        color: #505050;
+      }
+      button {
+        border: none;
+        border-radius: 2px;
+        outline: none;
+        width: 150px;
+        height: 35px;
+        background-color: var(--main);
+        color: white;
+        font-size: 12px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

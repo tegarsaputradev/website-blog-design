@@ -1,0 +1,70 @@
+@import url(../../css/variable.css);
+.title {
+  padding: 0 25px;
+  margin-top: 20px;
+}
+.swiper {
+  max-width: 850px;
+  height: 400px;
+  background-color: var(--container);
+  padding: 0 10px !important;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--main) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--main) !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 8px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: top;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 8px !important;
+  height: 90%;
+  overflow: hidden;
+  color: #666;
+  font-size: 14px;
+  img {
+    filter: brightness(80%);
+    height: 60%;
+  }
+
+  .desc {
+    padding: 10px 16px;
+    h5 {
+      font-weight: 500;
+      color: var(--main);
+    }
+  }
+}

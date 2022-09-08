@@ -1,0 +1,36 @@
+@import url("../../css/variable.css");
+.vote {
+  .isi {
+    .pertanyaan {
+      font-size: 20px;
+      font-weight: 500;
+      display: flex;
+      margin-bottom: 15px;
+    }
+    .checkbox {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      label {
+        font-size: 14px;
+      }
+    }
+    button {
+      margin-top: 20px;
+      padding: 5px 30px;
+      font-size: 14px;
+      border: none;
+      border-radius: 2px;
+      outline: none;
+      background-color: var(--main);
+      color: white;
+    }
+    .progresbar {
+      margin-top: 5px;
+      .hasil {
+        font-size: 14px;
+      }
+    }
+  }
+}
